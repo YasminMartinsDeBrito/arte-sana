@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Outfit";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body{
+  overflow-x: clip;
+  
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+  background-color: #E5E5E5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #40916C;
+  border-radius: 8px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
